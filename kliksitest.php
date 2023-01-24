@@ -3,7 +3,7 @@
 $xml = simplexml_load_file('eBOL_redni_1002471.xml', null, LIBXML_NOCDATA);
 
 $name = $xml->xpath("//ImeOsebe");
-$name_array = array();
+$name_array = array("test");
 
 foreach ($name as $n) {
     $priimek1 = (string)$n->Priimek1;
