@@ -1,0 +1,80 @@
+<onlC:PotrdiloOZadrzanostiOdDela xmlns:onlC="http://zzzs.si/b2b/onl/0001/DataTypes/ONLComplexDataType">
+	<Podatki id="RND-2db78839-bb48-4ba2-a03a-2ab3573cd069">
+		<StevilkaPotrdilaOZadrzanostiOdDela>1002471</StevilkaPotrdilaOZadrzanostiOdDela>
+		<Izvajalec>
+			<ZZZSStevilka>000199109</ZZZSStevilka>
+			<RIZDDZStevilka>6931</RIZDDZStevilka>
+			<NazivIzvajalca>ZDRAVSTVENI DOM IDRIJA</NazivIzvajalca>
+		</Izvajalec>
+		<Zdravnik>
+			<RIZDDZStevilka>6420</RIZDDZStevilka>
+			<SifraVrsteZdravnika sifra="2"/>
+			<ImeZdravnika>
+				<Priimek1>ROČNIK</Priimek1>
+				<Ime1>ANTON</Ime1>
+			</ImeZdravnika>
+		</Zdravnik>
+		<ZavarovanaOseba>
+			<ZZZSStevilka>903001782</ZZZSStevilka>
+			<SifraZavarovalnePodlageIzOZZ sifra="019000"/>
+			<SifraIzpostaveLokacijeZaposlitve sifra="42"/>
+			<ImeOsebe>
+				<Priimek1>ZAVAROVANEC</Priimek1>
+				<Ime1>AJDA</Ime1>
+				<Ime2>BONI</Ime2>
+			</ImeOsebe>
+			<DatumRojstva>1983-01-15</DatumRojstva>
+		</ZavarovanaOseba>
+		<PrviDanZadrzanosti>
+			<DatumPrvegaDneZadrzanosti>2019-11-22</DatumPrvegaDneZadrzanosti>
+		</PrviDanZadrzanosti>
+		<ZadnjiDanZadrzanosti>
+			<ZaDiagnozo>true</ZaDiagnozo>
+			<ZaRazlog>true</ZaRazlog>
+			<ZaPlacnika>true</ZaPlacnika>
+		</ZadnjiDanZadrzanosti>
+		<Zavezanec>
+			<RegistrskaStevilka>5542095707</RegistrskaStevilka>
+			<ZaporednaStevilkaPotrdila>1</ZaporednaStevilkaPotrdila>
+			<NazivZavezanca>AMBULANTA DRUŽINSKE MEDICINE, NINA MILEUSNIĆ DR. MED. SPEC. DRUŽ. MED.</NazivZavezanca>
+			<SifraDejavnosti sifra="86.210"/>
+		</Zavezanec>
+		<CasZadrzanostiOdDela>
+			<ZadrzanostZaPolniDelovniCas>
+				<DatumOd>2019-11-23</DatumOd>
+				<DatumDo>2019-11-23</DatumDo>
+			</ZadrzanostZaPolniDelovniCas>
+		</CasZadrzanostiOdDela>
+		<RazlogZadrzanosti>
+			<SifraRazlogaZadrzanosti sifra="1"/>
+			<DatumPrvegaDneZadrzanostiZaRazlog>2019-11-22</DatumPrvegaDneZadrzanostiZaRazlog>
+		</RazlogZadrzanosti>
+		<DatumIzdajePotrdila>2019-12-11</DatumIzdajePotrdila>
+		<KrajIzdajePotrdila>CERKNO</KrajIzdajePotrdila>
+		<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<SignedInfo>
+				<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+				<Reference URI="#RND-2db78839-bb48-4ba2-a03a-2ab3573cd069">
+					<Transforms>
+						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+						<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+					</Transforms>
+					<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+					<DigestValue>4K7o8T6aDbK3piruanwJ61YSu6bzhvE8PYQElyZo7xk=</DigestValue>
+				</Reference>
+			</SignedInfo>
+			<SignatureValue>G+SeN+FNlOCrP9XFmLYqkBDSjFbBn48Ww4dVhdr4J5mgi+0jLziFTrzHJqKjticdOuiYdr/Glth1n6jOUkVNLrh4Y2Q9szdQXILPs80ENQIExU6TWlIUIhJOFSJkynU51slnHI/xUE+I2+E/WzrSPW6lPqkhOtoVh/2/fLMdgRh+N3dSTN1xsWz+VVF/uYeJeT626smrZlSawUp6naISXJPFJSP3+vePkhJBzZjpA0Rg9oTp26bdtJNDEFkLLInCpZLnfEWmAKat6HZxXFhKIhHW3+aPkD/xEWsZJKNkD0ulWE6Tg5HXic1ZYQzf7ZbfWoB9SJts9qhZcfbEQkGZfQ==</SignatureValue>
+			<KeyInfo>
+				<X509Data>
+					<X509IssuerSerial>
+						<X509IssuerName>O=postaca, C=SI</X509IssuerName>
+						<X509SerialNumber>48493992738889247958289721806</X509SerialNumber>
+					</X509IssuerSerial>
+					<X509SubjectName>SERIALNUMBER=2017012309 + CN=KAREL TESTPK ENA, OU=person, O=POSTACA, C=SI</X509SubjectName>
+					<X509Certificate>MIIFBjCCA+6gAwIBAgINAJyxSmYAAAAARmGpzjANBgkqhkiG9w0BAQsFADAfMQswCQYDVQQGEwJTSTEQMA4GA1UEChMHcG9zdGFjYTAeFw0xNzAxMzAxMjQ2MDNaFw0yMjAxMzAxMzE2MDNaMF4xCzAJBgNVBAYTAlNJMRAwDgYDVQQKEwdQT1NUQUNBMQ8wDQYDVQQLEwZwZXJzb24xLDARBgNVBAUTCjIwMTcwMTIzMDkwFwYDVQQDExBLQVJFTCBURVNUUEsgRU5BMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0us7qsd1PEJUlDlPrttbYc2Qk1YoF6O11ZRSsn3UzsyD1uCFosl2o6J6z408Ud0mcyhgrlw2dBW3NGoVGVxKAN0l/cbzCEjGnDKVpqIDhbBMU57WQGXgwcUuGwu2wE45c5emi1dxKMaGfHcpZ/q8LEkjuwszDHJ236TZou7XwfrVGlzuqOrK6o9T8hzfOkyD2EnH8Uz+lnBy3aYwadb5fTO3+AtgDprW47rmdafD0syc/6kOZj3f1IAkO1wsNilbenVKN4p44i72Zvybd8+lyasvG5EGMVxbPlyIRM7dN0l2l32hRuUWjPX8XCXLxFiMNoXy9BG+XVg6Z+qSZ2NQ7QIDAQABo4ICADCCAfwwDgYDVR0PAQH/BAQDAgWgMBgGCisGAQQB9zQKAgEEChYIOTk5OTk5MDAwVgYDVR0gBE8wTTBBBg0rBgEEAfc0AQECAgIBMDAwLgYIKwYBBQUHAgEWImh0dHA6Ly9wb3N0YXJjYS5wb3N0YS5zaS9kb2t1bWVudGkwCAYGBACLMAECMBgGCCsGAQUFBwEDBAwwCjAIBgYEAI5GAQEwFwYDVR0RBBAwDoEMdGVzdEB6enpzLnNpMIGxBgNVHR8EgakwgaYwNqA0oDKkMDAuMQswCQYDVQQGEwJTSTEQMA4GA1UEChMHcG9zdGFjYTENMAsGA1UEAxMEQ1JMMzBsoGqgaIY/bGRhcDovL2RlbW9jYS5wb3N0YS5zaS9vPXBvc3RhY2EsYz1TST9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0hiVodHRwOi8vZGVtb2NhLnBvc3RhLnNpL2NybC9kZW1vY2EuY3JsMCsGA1UdEAQkMCKADzIwMTcwMTMwMTI0NjAzWoEPMjAyMjAxMzAxMzE2MDNaMB8GA1UdIwQYMBaAFIt08wEAANIr9h/DdooRJnZjlVDvMB0GA1UdDgQWBBRpaD33aTbcK+cXs1vgvzp1lxITjjAJBgNVHRMEAjAAMBkGCSqGSIb2fQdBAAQMMAobBFY4LjEDAgOoMA0GCSqGSIb3DQEBCwUAA4IBAQAAK9CJkzmBMglL7drcMFCuqAN8OcwCb+ul05wtZbZIRwNh/EfJjHH6taSdCdwDpgn8CBHrOedx5jS5iIqaT6tPWHZFnzidQQcTs9l2lpd6MpPpH/mEzbnuRgLKhcTIE2lT39ePWumvI46umFyzEwR2NmeosivPi57JbE66EKAu2KBAaLVkU3K2gfgMJXC8QQPLFa32gXBI0aibch4Tc6a/y8X+u8pvd6Cgyhtr5YLKvPbNU4GtP4fCBjqh+Gn74ac1ws+Uxf4o2t363LcMhvt3NrWOwUXfyWljEq2YC8B13t8Vcg7Gh069/qW+TcWZG2KZnnVL8OqR0yFKrPXqx4KL</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</Signature>
+	</Podatki>
+</onlC:PotrdiloOZadrzanostiOdDela>
